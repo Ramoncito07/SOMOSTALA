@@ -1,469 +1,478 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="keywords" content="rugby, Tala, Cordoba, Warcalde"
-        <meta name="description" content="noticias recientes, fixtures, tabla de posiciones"
-        <meta charset="UTF-8">
-        <title>SOMOSTALA</title>
-     </head>
-     <body>
-     <header>
-        <img src="imagenes/Tala_Rugby_Club_Crest.svg.png">
-        <h1>SOMOSTALA</h1>
-      </header> 
-     <nav> 
-    
-      <a href="index.html"> HOME</a>
 
-     </nav>
-     <main>
-        <h2>TABLA DE POSICIONES-PRIMERA</h2>
-        <table>
-        <thead>
-            <tr>
-                <th>
-                  POS
-                </th>
-                <th>
-                LOGO
-                </th>
-                <th>
-                    EQUIPO
-                </th>
-                <th>
-                    J
-                </th>
-                <th>
-                    G
-                </th>
-                <th>
-                    E
-                </th>
-                <th>
-                    P
-                </th>
-                <th>
-                    BO
-                </th>
-                <th>
-                    BD
-                </th>
-                <th>
-                    PTS
-                </th>
-               </tr>   
-              </thead>   
-              <tbody>
+<head>
+    <meta name="keywords" content="rugby, Tala, Cordoba, Warcalde" <meta name="description"
+        content="noticias recientes, fixtures, tabla de posiciones" <meta charset="UTF-8">
+    <title>SOMOSTALA</title>
+    <link href="estilos.css" type="text/css" rel="stylesheet">
+    <script src="javascrip.js"></script>
+</head>
+
+<body>
+    <header class="LOGO">
+        <a href="index.html"><img src="imagenes/Tala_Rugby_Club_Crest.svg.png"></a>
+        <h1>SOMOSTALA</h1>
+    </header>
+
+    <main>
+        <h2 class="tabla-title">TABLA DE POSICIONES-PRIMERA</h2>
+
+
+        <select id="categorias" onchange="mostrarTabla(this.value)">
+            <option value="primera">Primera</option>
+            <option value="intermedia">intermedia</option>
+            <option value="m-19">m-19</option>
+        </select>
+
+        <table class="tabla" id="tabla-primera">
+            <thead>
+                <tr>
+                    <th>
+                        POS
+                    </th>
+                    <th>
+                        LOGO
+                    </th>
+                    <th>
+                        EQUIPO
+                    </th>
+                    <th>
+                        J
+                    </th>
+                    <th>
+                        G
+                    </th>
+                    <th>
+                        E
+                    </th>
+                    <th>
+                        P
+                    </th>
+                    <th>
+                        BO
+                    </th>
+                    <th>
+                        BD
+                    </th>
+                    <th>
+                        PTS
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
                 <tr>
                     <td>
-                     1
+                        1
                     </td>
-                
+
                     <td>
-                      logo 
+                        logo
                     </td>
-                
+
                     <td>
-                    TALA R.C    
+                        TALA R.C
                     </td>
-               
+
                     <td>
                         13
                     </td>
-               
+
                     <td>
                         9
                     </td>
-               
+
                     <td>
-                       0
+                        0
                     </td>
-                
+
                     <td>
                         4
                     </td>
-              
+
                     <td>
                         7
                     </td>
-             
+
                     <td>
                         3
                     </td>
-            
+
                     <td>
                         46
                     </td>
                 </tr>
                 <tr>
                     <td>
-                    2
+                        2
                     </td>
-                
+
                     <td>
-                      logo 
+                        logo
                     </td>
-                
+
                     <td>
-                    JOCKEY CC  
+                        JOCKEY CC
                     </td>
-               
+
                     <td>
                         12
                     </td>
-               
+
                     <td>
                         9
                     </td>
-               
+
                     <td>
-                       0
+                        0
                     </td>
-                
+
                     <td>
                         3
                     </td>
-              
+
                     <td>
                         7
                     </td>
-             
+
                     <td>
                         3
                     </td>
-            
+
                     <td>
                         46
                     </td>
                 </tr>
                 <tr>
                     <td>
-                     3
+                        3
                     </td>
-                
+
                     <td>
-                      logo 
+                        logo
                     </td>
-                
+
                     <td>
-                    ATHLETIC    
+                        ATHLETIC
                     </td>
-               
+
                     <td>
                         12
                     </td>
-               
+
                     <td>
                         8
                     </td>
-               
+
                     <td>
-                       1
+                        1
                     </td>
-                
+
                     <td>
                         3
                     </td>
-              
+
                     <td>
                         4
                     </td>
-             
+
                     <td>
                         3
                     </td>
-            
+
                     <td>
                         41
                     </td>
                 </tr>
                 <tr>
                     <td>
-                     4
+                        4
                     </td>
-                
+
                     <td>
-                      logo 
+                        logo
                     </td>
-                
+
                     <td>
-                    LA TABLADA    
+                        LA TABLADA
                     </td>
-               
+
                     <td>
                         13
                     </td>
-               
+
                     <td>
                         8
                     </td>
-               
+
                     <td>
-                       0
+                        0
                     </td>
-                
+
                     <td>
                         5
                     </td>
-              
+
                     <td>
                         6
                     </td>
-             
+
                     <td>
                         1
                     </td>
-            
+
                     <td>
                         39
                     </td>
                 </tr>
                 <tr>
                     <td>
-                     5
+                        5
                     </td>
-                
+
                     <td>
-                      logo 
+                        logo
                     </td>
-                
+
                     <td>
-                   URU CURE    
+                        URU CURE
                     </td>
-               
+
                     <td>
                         12
                     </td>
-               
+
                     <td>
                         7
                     </td>
-               
+
                     <td>
-                       0
+                        0
                     </td>
-                
-                    <td>
-                        5
-                    </td>
-              
+
                     <td>
                         5
                     </td>
-             
+
+                    <td>
+                        5
+                    </td>
+
                     <td>
                         4
                     </td>
-            
+
                     <td>
                         37
                     </td>
                 </tr>
                 <tr>
                     <td>
-                     6
+                        6
                     </td>
-                
+
                     <td>
-                      logo 
+                        logo
                     </td>
-                
+
                     <td>
-                    UNIVERSITARIO   
+                        UNIVERSITARIO
                     </td>
-               
+
                     <td>
                         12
                     </td>
-               
+
                     <td>
                         7
                     </td>
-               
+
                     <td>
-                       0
+                        0
                     </td>
-                
+
                     <td>
                         5
                     </td>
-              
+
                     <td>
                         4
                     </td>
-             
+
                     <td>
                         1
                     </td>
-            
+
                     <td>
                         33
                     </td>
                 </tr>
                 <tr>
                     <td>
-                     7
+                        7
                     </td>
-                
+
                     <td>
-                      logo 
+                        logo
                     </td>
-                
+
                     <td>
-                    JOCKEY VM    
+                        JOCKEY VM
                     </td>
-               
+
                     <td>
                         12
                     </td>
-               
+
                     <td>
                         4
                     </td>
-               
+
                     <td>
-                       0
+                        0
                     </td>
-                
+
                     <td>
                         8
                     </td>
-              
+
                     <td>
                         5
                     </td>
-             
+
                     <td>
                         6
                     </td>
-            
+
                     <td>
                         27
                     </td>
                 </tr>
                 <tr>
                     <td>
-                     8
+                        8
                     </td>
-                
+
                     <td>
-                      logo 
+                        logo
                     </td>
-                
+
                     <td>
-                    PALERMO BAJO    
+                        PALERMO BAJO
                     </td>
-               
+
                     <td>
                         12
                     </td>
-               
+
                     <td>
                         3
                     </td>
-               
+
                     <td>
-                       2
+                        2
                     </td>
-                
+
                     <td>
                         7
                     </td>
-              
+
                     <td>
                         6
                     </td>
-             
+
                     <td>
                         4
                     </td>
-            
+
                     <td>
                         26
                     </td>
                 </tr>
                 <tr>
                     <td>
-                     9
+                        9
                     </td>
-                
+
                     <td>
-                      logo 
+                        logo
                     </td>
-                
+
                     <td>
-                    SAN MARTIN VM    
+                        SAN MARTIN VM
                     </td>
-               
+
                     <td>
                         12
                     </td>
-               
+
                     <td>
                         3
                     </td>
-               
+
                     <td>
-                       1
+                        1
                     </td>
-                
+
                     <td>
                         8
                     </td>
-              
+
                     <td>
                         4
                     </td>
-             
+
                     <td>
                         3
                     </td>
-            
+
                     <td>
                         21
                     </td>
                 </tr>
                 <tr>
                     <td>
-                     10
+                        10
                     </td>
-                
+
                     <td>
-                      logo 
+                        logo
                     </td>
-                
+
                     <td>
-                     CORDOBA RUGBY    
+                        CORDOBA RUGBY
                     </td>
-               
+
                     <td>
                         12
                     </td>
-               
+
                     <td>
                         1
                     </td>
-               
+
                     <td>
-                       0
+                        0
                     </td>
-                
+
                     <td>
                         11
                     </td>
-              
+
                     <td>
                         3
                     </td>
-             
+
                     <td>
                         2
                     </td>
-            
+
                     <td>
                         9
                     </td>
                 </tr>
+            </tbody>
+        </table>
 
 
 
@@ -473,9 +482,841 @@
 
 
 
-              </tbody> 
-              </table>
-     </main> 
-     </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <table class="tabla" id="tabla-intermedia">
+
+            <thead>
+                <tr>
+                    <th>
+                        POS
+                    </th>
+                    <th>
+                        LOGO
+                    </th>
+                    <th>
+                        EQUIPO
+                    </th>
+                    <th>
+                        J
+                    </th>
+                    <th>
+                        G
+                    </th>
+                    <th>
+                        E
+                    </th>
+                    <th>
+                        P
+                    </th>
+                    <th>
+                        PB
+                    </th>
+                    <th>
+                        PTS
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        1
+                    </td>
+
+                    <td>
+                        logo
+                    </td>
+
+                    <td>
+                        ATHLETIC
+                    </td>
+
+                    <td>
+                        17
+                    </td>
+
+                    <td>
+                        15
+                    </td>
+
+                    <td>
+                        0
+                    </td>
+
+                    <td>
+                        2
+                    </td>
+
+                    <td>
+                        14
+                    </td>
+
+                    <td>
+                        74
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2
+                    </td>
+
+                    <td>
+                        logo
+                    </td>
+
+                    <td>
+                        TALA.RC
+                    </td>
+
+                    <td>
+                        17
+                    </td>
+
+                    <td>
+                        14
+                    </td>
+
+                    <td>
+                        0
+                    </td>
+
+                    <td>
+                        3
+                    </td>
+
+                    <td>
+                        14
+                    </td>
+
+                    <td>
+                        70
+                    </td </tr>
+                <tr>
+                    <td>
+                        3
+                    </td>
+
+                    <td>
+                        logo
+                    </td>
+
+                    <td>
+                        LA TABLADA
+                    </td>
+
+                    <td>
+                        17
+                    </td>
+
+                    <td>
+                        12
+                    </td>
+
+                    <td>
+                        0
+                    </td>
+
+                    <td>
+                        5
+                    </td>
+
+                    <td>
+                        11
+                    </td>
+
+                    <td>
+                        59
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        4
+                    </td>
+
+                    <td>
+                        logo
+                    </td>
+
+                    <td>
+                        PALERMO BAJO
+                    </td>
+
+                    <td>
+                        17
+                    </td>
+
+                    <td>
+                        10
+                    </td>
+
+                    <td>
+                        1
+                    </td>
+
+                    <td>
+                        6
+                    </td>
+
+                    <td>
+                        10
+                    </td>
+
+                    <td>
+                        52
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        5
+                    </td>
+
+                    <td>
+                        logo
+                    </td>
+
+                    <td>
+                        JOCKEY VM
+                    </td>
+
+                    <td>
+                        17
+                    </td>
+
+                    <td>
+                        10
+                    </td>
+
+                    <td>
+                        0
+                    </td>
+
+                    <td>
+                        7
+                    </td>
+
+                    <td>
+                        11
+                    </td>
+
+                    <td>
+                        51
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        6
+                    </td>
+
+                    <td>
+                        logo
+                    </td>
+
+                    <td>
+                        JOCKEY CC
+                    </td>
+
+                    <td>
+                        17
+                    </td>
+
+                    <td>
+                        9
+                    </td>
+
+                    <td>
+                        0
+                    </td>
+
+                    <td>
+                        8
+                    </td>
+
+                    <td>
+                        14
+                    </td>
+
+                    <td>
+                        50
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        7
+                    </td>
+
+                    <td>
+                        logo
+                    </td>
+
+                    <td>
+                        URU CURE
+                    </td>
+
+                    <td>
+                        17
+                    </td>
+
+                    <td>
+                        8
+                    </td>
+
+                    <td>
+                        0
+                    </td>
+
+                    <td>
+                        9
+                    </td>
+
+                    <td>
+                        8
+                    </td>
+
+                    <td>
+                        40
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        8
+                    </td>
+
+                    <td>
+                        logo
+                    </td>
+
+                    <td>
+                        SAN MARTIN VM
+                    </td>
+
+                    <td>
+                        17
+                    </td>
+
+                    <td>
+                        3
+                    </td>
+
+                    <td>
+                        1
+                    </td>
+
+                    <td>
+                        13
+                    </td>
+
+                    <td>
+                        9
+                    </td>
+
+                    <td>
+                        23
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        9
+                    </td>
+
+                    <td>
+                        logo
+                    </td>
+
+                    <td>
+                        UNIVERSITARIO
+                    </td>
+
+                    <td>
+                        17
+                    </td>
+
+                    <td>
+                        2
+                    </td>
+
+                    <td>
+                        2
+                    </td>
+
+                    <td>
+                        13
+                    </td>
+
+                    <td>
+                        9
+                    </td>
+
+                    <td>
+                        21
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        10
+                    </td>
+
+                    <td>
+                        logo
+                    </td>
+
+                    <td>
+                        CORDOBA RUGBY
+                    </td>
+
+                    <td>
+                        17
+                    </td>
+
+                    <td>
+                        0
+                    </td>
+
+                    <td>
+                        0
+                    </td>
+
+                    <td>
+                        17
+                    </td>
+
+                    <td>
+                        2
+                    </td>
+
+                    <td>
+                        2
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+
+
+
+
+
+
+
+
+
+        <table class="tabla" id="tabla-m19">
+            <thead>
+                <tr>
+                    <th>
+                        POS
+                    </th>
+                    <th>
+                        LOGO
+                    </th>
+                    <th>
+                        EQUIPO
+                    </th>
+                    <th>
+                        J
+                    </th>
+                    <th>
+                        G
+                    </th>
+                    <th>
+                        E
+                    </th>
+                    <th>
+                        P
+                    </th>
+                    <th>
+                        PB
+                    </th>
+                    <th>
+                        PTS
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        1
+                    </td>
+
+                    <td>
+                        logo
+                    </td>
+
+                    <td>
+                        TALA RC
+                    </td>
+
+                    <td>
+                        18
+                    </td>
+
+                    <td>
+                        15
+                    </td>
+
+                    <td>
+                        0
+                    </td>
+
+                    <td>
+                        3
+                    </td>
+
+                    <td>
+                        16
+                    </td>
+
+                    <td>
+                        76
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2
+                    </td>
+
+                    <td>
+                        logo
+                    </td>
+
+                    <td>
+                        ATHLETIC
+                    </td>
+
+                    <td>
+                        18
+                    </td>
+
+                    <td>
+                        14
+                    </td>
+
+                    <td>
+                        0
+                    </td>
+
+                    <td>
+                        4
+                    </td>
+
+                    <td>
+                        12
+                    </td>
+
+                    <td>
+                        68
+                    </td </tr>
+                <tr>
+                    <td>
+                        3
+                    </td>
+
+                    <td>
+                        logo
+                    </td>
+
+                    <td>
+                        JOCKEY CC
+                    </td>
+
+                    <td>
+                        18
+                    </td>
+
+                    <td>
+                        13
+                    </td>
+
+                    <td>
+                        0
+                    </td>
+
+                    <td>
+                        5
+                    </td>
+
+                    <td>
+                        13
+                    </td>
+
+                    <td>
+                        65
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        4
+                    </td>
+
+                    <td>
+                        logo
+                    </td>
+
+                    <td>
+                        PALERMO BAJO
+                    </td>
+
+                    <td>
+                        18
+                    </td>
+
+                    <td>
+                        10
+                    </td>
+
+                    <td>
+                        1
+                    </td>
+
+                    <td>
+                        7
+                    </td>
+
+                    <td>
+                        12
+                    </td>
+
+                    <td>
+                        54
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        5
+                    </td>
+
+                    <td>
+                        logo
+                    </td>
+
+                    <td>
+                        URU CURE
+                    </td>
+
+                    <td>
+                        18
+                    </td>
+
+                    <td>
+                        10
+                    </td>
+
+                    <td>
+                        0
+                    </td>
+
+                    <td>
+                        8
+                    </td>
+
+                    <td>
+                        10
+                    </td>
+
+                    <td>
+                        50
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        6
+                    </td>
+
+                    <td>
+                        logo
+                    </td>
+
+                    <td>
+                        JOCKEY VM
+                    </td>
+
+                    <td>
+                        18
+                    </td>
+
+                    <td>
+                        8
+                    </td>
+
+                    <td>
+                        1
+                    </td>
+
+                    <td>
+                        9
+                    </td>
+
+                    <td>
+                        10
+                    </td>
+
+                    <td>
+                        44
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        7
+                    </td>
+
+                    <td>
+                        logo
+                    </td>
+
+                    <td>
+                        LA TABLADA
+                    </td>
+
+                    <td>
+                        18
+                    </td>
+
+                    <td>
+                        8
+                    </td>
+
+                    <td>
+                        1
+                    </td>
+
+                    <td>
+                        9
+                    </td>
+
+                    <td>
+                        10
+                    </td>
+
+                    <td>
+                        44
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        8
+                    </td>
+
+                    <td>
+                        logo
+                    </td>
+
+                    <td>
+                        SAN MARTIN VM
+                    </td>
+
+                    <td>
+                        18
+                    </td>
+
+                    <td>
+                        7
+                    </td>
+
+                    <td>
+                        0
+                    </td>
+
+                    <td>
+                        11
+                    </td>
+
+                    <td>
+                        4
+                    </td>
+
+                    <td>
+                        32
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        9
+                    </td>
+
+                    <td>
+                        logo
+                    </td>
+
+                    <td>
+                        UNIVERSITARIO
+                    </td>
+
+                    <td>
+                        18
+                    </td>
+
+                    <td>
+                        3
+                    </td>
+
+                    <td>
+                        1
+                    </td>
+
+                    <td>
+                        14
+                    </td>
+
+                    <td>
+                        7
+                    </td>
+
+                    <td>
+                        21
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        10
+                    </td>
+
+                    <td>
+                        logo
+                    </td>
+
+                    <td>
+                        CORDOBA RUGBY
+                    </td>
+
+                    <td>
+                        18
+                    </td>
+
+                    <td>
+                        0
+                    </td>
+
+                    <td>
+                        0
+                    </td>
+
+                    <td>
+                        18
+                    </td>
+
+                    <td>
+                        2
+                    </td>
+
+                    <td>
+                        2
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+
 </html>
-        

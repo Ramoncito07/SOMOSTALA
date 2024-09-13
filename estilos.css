@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+}
+
+.LOGO img {
+    width: 10%;
+    float: left;
+}
+
+.noticias-principal {
+
+    margin: 0px 10%;
+    width: 70%;
+}
+
+.noticias-principal p {
+
+    float: right;
+
+    width: 50%;
+    margin: 20px 0;
+
+}
+
+
+.noticias-principal img {
+    width: 40%;
+}
+
+.noticias-principal article {
+
+    margin: 40px 0;
+}
+
+
+
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.9)), url("imagenes/rugbyfondo");
+    background-size: 100%;
+    background-position: bottom 50%;
+    font-family: "Notable", sans-serif;
+
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Permanent Marker", sans-serif;
+    color: #ffe60a;
+
+}
+
+h2 {
+    font-size: 50px;
+    background-color: black;
+    width: 60%;
+    padding: 20px;
+    border-radius: 30px 0 30px 0;
+    text-align: center;
+    margin: 20px auto;
+
+}
+
+.noticias-H3 {
+    font-size: 45px;
+    background-color: black;
+    text-align: center;
+    width: 65%;
+    margin: 40px auto;
+}
+
+.tabla-title {
+    width: 70%;
+}
+
+nav a {
+    background-color: #ffe60a;
+    border-radius: 100%;
+}
+
+nav img {
+    width: 3%;
+}
+
+.tabla {
+    width: 70%;
+}
+
+.horarios {
+
+    width: 55%;
+    margin: 0 auto;
+}
+
+header img {
+    width: 10%;
+
+}
+
+table td {
+
+    border: 2px solid black;
+}
+
+table tbody {
+
+    background-color: white;
+}
+
+.HOME {
+    float: right;
+}
+
+.noticias-title {
+    width: 55%;
+}
+
+.p-noticias {
+
+    margin: 10px auto;
+    width: 60%;
+}
+
+.almost-footer-hst {
+
+    background-color: black;
+    color: #ffe60a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 90px auto;
+    text-align: center;
+    width: 60%;
+}
+
+#tabla-intermedia {
+    display: none;
+}
+
+#tabla-m19 {
+
+    display: none;
+}
